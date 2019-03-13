@@ -1,0 +1,50 @@
+header {
+    background-color: red;
+    height: 50px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    
+
+}
+
+header div {
+    background-color: pink;
+    width: 960px;
+    margin: 0 auto;
+    height: 50px;
+    
+
+
+}
+
+header h1 {
+    float: left;
+    margin: 0 auto;
+    height: 50px;
+    padding: 15px 20px 20px 20px;
+    box-sizing: border-box;
+    background-color: #4aaaa5;
+    font-size: 20px;
+}
+style {
+    color: #c1d6d5;
+    
+}
+
+nav {
+    float: right;
+    margin: 0 auto;
+    
+
+}
+
+nav a {
+    padding-right: 15px;
+    text-decoration: none;
+    padding-top: 15px;
+
+
+}
