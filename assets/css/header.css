@@ -1,46 +1,72 @@
 header {
-    background-color: red;
-    height: 50px;
+    background-color: black;
+    height: 3.1em;
     padding: 0;
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+    border-bottom: .1em solid #2f6686;
     
 
 }
 
 header div {
-    background-color: pink;
+    background-color: black;
     width: 960px;
     margin: 0 auto;
-    height: 50px;
-    
-
-
+    height: 3.1em;
+    position: relative;
+    border-bottom: .1em solid #2f6686;
 }
 
 header h1 {
     float: left;
-    height: 50px;
+    height: 2.1em;
+    padding: .45em 1em;
+    font-size: 1.45em;
+    font-variant: small-caps;
+    margin: 0 auto;
     box-sizing: border-box;
-    background-color: #4aaaa5;
-    font-size: 20px;
+    background-color: #2f6686;
+    color: black;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+    position: absolute;
+
+    
+    
 }
 style {
     color: #c1d6d5;
     
 }
 
-nav {
+nav.topmenu {
     float: right;
-    margin: 0 auto;
+    margin-top: 15px;
+
     
 
 }
 
 nav a {
-    padding-right: 15px;
+    padding-right: 2em;
     text-decoration: none;
+    font-size: 1em;
+    color: #2f6686;
 
+}
+#navabout {
+    border-right: 1px solid #6d1010;
+    margin: 2em;
+}
+#navportfolio {
+    border-right: 1px solid #6d1010;
+    margin-right: 2em;
+    margin-left: 0;
+}
+#navcontact {
+    padding-right: 0;
 }
