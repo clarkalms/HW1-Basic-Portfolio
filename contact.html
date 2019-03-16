@@ -29,24 +29,25 @@
     </header>
     <section id="content" class="clearfix">
 
-        <h1 class="about">About Me</h1>
-        <img src="London.JPG" alt="Profile Picture">
-        <p id="p1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum."</p>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum."</p>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum."</p>
+        <h1 class="contenttitle">Contact</h1>
+        <form name="contactform" method="post" action="contactpage.php">
 
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Your name..." maxlength="50" size="30">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Your last name..." maxlength="50" size="30">
+            
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email address..." maxlength="80" size="30">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+            <input type="submit" value="Send">
+
+        </form>
+        
     </section>
     <footer class="footer">
         <div>

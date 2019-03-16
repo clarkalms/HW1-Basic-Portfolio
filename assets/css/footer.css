@@ -1,9 +1,9 @@
-.footer {
+footer {
     background-color: black;
     text-align: center;
-    height: 60px;
+    height: 3em;
     border: top;
-    border-top-style: solid;
+    border-top: .2em solid;
     border-top-color: #2f6686;
     position: fixed;
     bottom: 0;
@@ -15,7 +15,7 @@
 .copyright {
     font-size: 10px;
     margin: 0 auto;
-    padding: 2.5em;
+    padding: .5em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #2f6686;
 
